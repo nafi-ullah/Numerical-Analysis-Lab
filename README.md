@@ -21,10 +21,10 @@ Here are screenshots of the plotted figures for each of the root-finding methods
    ![Bisection Method Plot](plot/task_102.png)
 
 2. Newton-Raphson Method
-   ![Newton-Raphson Method Plot](plot/task_103.png)
+   ![Newton-Raphson Method Plot](plot/task_104.png)
 
 3. False Position Method
-   ![False Position Method Plot](plot/task_102.png)
+   ![False Position Method Plot](plot/task_103.png)
 
 4. Matrix Manupulation
    ![Matrix Manupulation](plot/task_101.png)
