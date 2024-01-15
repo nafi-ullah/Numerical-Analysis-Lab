@@ -9,7 +9,7 @@ function retval = myscript ()
   f = inline(str,'x');
 
   x = linspace(0,3,100);
-  function y = f(x);
+  function y = f(x)
     y = f(x);
   endfunction
 
