@@ -1,4 +1,3 @@
-
 #include<iostream>
 #include<iomanip>
 #include<math.h>
@@ -13,15 +12,10 @@ int main()
 	 float a[SIZE][SIZE], x[SIZE], ratio;
 	 int i,j,k,n;
 
-     /* Setting precision and writing floating point values in fixed-point notation. */
-     cout<< setprecision(3)<< fixed;
-
 	 /* Inputs */
-	 /* 1. Reading number of unknowns */
 	 cout<<"Enter number of unknowns: ";
 	 cin>>n;
 
-	 /* 2. Reading Augmented Matrix */
 	 cout<<"Enter Coefficients of Augmented Matrix: "<< endl;
 	 for(i=1;i<=n;i++)
 	 {
@@ -31,6 +25,7 @@ int main()
 			   cin>>a[i][j];
 		  }
 	 }
+
 	/* Applying Gauss Elimination */
 	 for(i=1;i<=n-1;i++)
 	 {
@@ -49,6 +44,7 @@ int main()
 			   }
 		  }
 	 }
+	  
 	 /* Obtaining Solution by Back Substitution Method */
 	 x[n] = a[n][n+1]/a[n][n];
 
@@ -71,3 +67,6 @@ int main()
 
 	 return(0);
 }
+
+
+// Source: https://www.codesansar.com/numerical-methods/gauss-elimination-method-using-c-plus-plus-output.htm
